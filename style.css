@@ -1,0 +1,19 @@
+.center{text-align: center;}
+
+.header_row{height: 300px;}
+.header_row h1{
+  opacity: 0;
+  margin-left:50px;
+  -webkit-transition: opacity 1s ease-out, margin-left .5s ease-out;
+     -moz-transition: opacity 1s ease-out, margin-left .5s ease-out;
+      -ms-transition: opacity 1s ease-out, margin-left .5s ease-out;
+       -o-transition: opacity 1s ease-out, margin-left .5s ease-out;
+          transition: opacity 1s ease-out, margin-left .5s ease-out;
+  }
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+  opacity: 1!important;
+  margin-left: 0px!important;
+}
